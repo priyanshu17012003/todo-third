@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+button{
+   text-align: center;
+   padding: 1px;
+   min-width: 46px;
+}
+
+.list{
+    margin: 10px;
+}
+
+#delete{
+    background-color: red;
+    color: white;
+}
+
+.ToDo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6px;
+}
